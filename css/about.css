@@ -1,0 +1,85 @@
+.img{
+    background-image: url(../images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.overlay{
+    background-color:rgba(0,0,0,0.7);
+    height: 100vh;
+   
+}
+.text1{
+    color: white;
+}
+.text1:hover{
+    color: tomato;
+}
+.img.butt{
+background-color: aliceblue;
+border: 2 solid;
+color: white;
+
+}
+.butt:hover{
+    background-color: white;
+    color: black;
+}
+.icon{
+    color: coral;
+    font-size: 80px;
+
+
+}
+.h2::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: tomato;
+    position: absolute;
+    transform: translatex(-50%);
+    left: 50%;
+    margin-top: 45px;
+transition: all 0.5s;
+
+}
+.icon1:hover .h2::after{
+    width: 80px;
+}
+.text4{
+    background-color: beige;
+ 
+}
+.overlay1{
+    top: 0;
+ background-color: rgba(0,0,0,0.7);
+ opacity: 0;   
+ transition-property: opacity;
+ transition-duration: 1s;
+}
+.overlay1:hover{
+    opacity: 100%;
+}
+.portfolio{
+    overflow: hidden;
+    transition-property: transform;
+    transition-duration: 0.7s;
+}
+.portfolio:hover img{
+    transform: scale(1.1);
+}
+ .nav_port li:hover a{
+background-color: crimson;
+color: white;
+}
+
+.iconend{
+    color: white;
+    background-color: rgb(43, 43, 43);
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+.iconend:hover{
+    color: orangered;
+}
